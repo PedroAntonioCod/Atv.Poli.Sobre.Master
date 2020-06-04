@@ -1,0 +1,13 @@
+<?php
+require_once 'Cachorro.php';
+require_once 'Fox.php';
+
+$dog = new Cachorro("branco","grande");
+
+$dog->latir("aaa");
+
+$fox = new Invertido();
+
+$fox->latir();
+
+?>
