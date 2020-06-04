@@ -1,0 +1,21 @@
+<?php 
+
+require_once 'Cachorro.php';
+
+class fox extends Cachorro{
+  
+  public function __construct(){
+    echo("Um ser diferente nasceu\n");
+  }
+  
+  
+  public function latir(){
+    echo("Nyz Nyz\n");
+  }
+  
+  
+  
+}
+
+
+?>
